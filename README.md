@@ -1,5 +1,8 @@
 # django-medium-registration
 
+pip install djangorestframework
+pip install djangorestframework-simplejwt
+
 register:
 http://127.0.0.1:8000/account/api/register/
 body:
@@ -17,3 +20,5 @@ body:
   "email" : "",
   "password" : ""
 }
+
+
